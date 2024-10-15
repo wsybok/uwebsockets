@@ -9,7 +9,7 @@ import logging
 import usocket as socket
 import ubinascii as binascii
 import urandom as random
-import ussl
+import ssl
 
 from .protocol import Websocket, urlparse
 
